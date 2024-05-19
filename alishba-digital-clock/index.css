@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+}
+ 
+body {
+  min-height: 100vh;
+ } 
+
+body,
+.time,
+.leftside,
+.rightside,
+.day,
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightside {
+  flex-direction: column;
+}
+
+.digitalclock {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px 40px;
+  width: 425px;
+  border-radius: 20px;
+  box-shadow: 00 10px 15px rgb(30, 22, 22);
+}
+
+#hours {
+  font-size: 7rem;
+  font-weight: 800;
+}
+#dots {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#minutes {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#ampm{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#seconds {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.rightbottom {
+  margin-left: 60px;
+  transform: translateY(-15px);
+}
+#dd,
+#ddmmyy {
+  font-size: 2rem;
+  font: weight 300px;
+}
+
+body {
+  background-color: darksalmon;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+margin-bottom: 410px;
+}
+body {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .digitalclock {
+    font-size: 2rem;
+  }
+}
